@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_margin="2dp"
+    android:background="@android:color/transparent">
+
+    <View
+        android:id="@+id/bg_hoy"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_circle_today"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_dia_numero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_escudo_rival"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_casa_local"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/icono_casa"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="8dp"
+        android:background="#F5F5F5"
+        android:gravity="center_vertical">
+
+        <TextView android:layout_width="24dp" android:layout_height="wrap_content" android:text="#" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="44dp" android:text="Equipo" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="28dp" android:layout_height="wrap_content" android:text="PJ" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="28dp" android:layout_height="wrap_content" android:text="G" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="28dp" android:layout_height="wrap_content" android:text="E" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="28dp" android:layout_height="wrap_content" android:text="P" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="32dp" android:layout_height="wrap_content" android:text="DG" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+        <TextView android:layout_width="32dp" android:layout_height="wrap_content" android:text="PTS" android:gravity="center" android:textSize="12sp" android:textStyle="bold" android:textColor="#808080" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tabla_posiciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="90dp" />
+
+</LinearLayout>

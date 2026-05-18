@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="barca_blue">#004D98</color>
+    <color name="barca_red">#A50044</color>
+    <color name="barca_yellow">#FFFF00</color>
+    <color name="barca_white">#FFFFFF</color>
+</resources>
