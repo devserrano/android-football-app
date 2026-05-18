@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Lamine Yamal",
+    "dorsal": 19,
+    "posicion": "Delantero",
+    "nacionalidad": "España",
+    "edad": 18,
+    "imagenUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250176450.jpg"
+  },
+  {
+    "nombre": "Robert Lewandowski",
+    "dorsal": 9,
+    "posicion": "Delantero",
+    "nacionalidad": "Polonia",
+    "edad": 37,
+    "imagenUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250002096.jpg"
+  },
+  {
+    "nombre": "Pedri",
+    "dorsal": 8,
+    "posicion": "Mediocampista",
+    "nacionalidad": "España",
+    "edad": 22,
+    "imagenUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250128377.jpg"
+  },
+  {
+    "nombre": "Gavi",
+    "dorsal": 6,
+    "posicion": "Mediocampista",
+    "nacionalidad": "España",
+    "edad": 20,
+    "imagenUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250128378.jpg"
+  },
+  {
+    "nombre": "Ter Stegen",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "nacionalidad": "Alemania",
+    "edad": 32,
+    "imagenUrl": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250025593.jpg"
+  }
+]
